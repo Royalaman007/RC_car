@@ -12,8 +12,8 @@ void setup() {
   // Optional speed control pins (if ENA/ENB connected to D9/D10)
   pinMode(9, OUTPUT);  // ENA
   pinMode(10, OUTPUT); // ENB
-  analogWrite(9, 200); // Set motor speed (0-255)
-  analogWrite(10, 200);
+  analogWrite(9, 250); // Set motor speed (0-255)
+  analogWrite(10, 250);
 }
 
 void loop() {
